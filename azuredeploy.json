@@ -39,7 +39,7 @@
                     {
                         "name": "[parameters('ContainerGroupsName')]",
                         "properties": {
-                            "image": "linuxserver/unifi-controller:latest",
+                            "image": "jacobalberty/unifi:latest",
                             "ports": [
                                 {
                                     "protocol": "UDP",
@@ -72,7 +72,7 @@
                             "volumeMounts": [
                                 {
                                     "name": "azurefile",
-                                    "mountPath": "/config/"
+                                    "mountPath": "/unifi/"
                                 }
                             ]
                         }
