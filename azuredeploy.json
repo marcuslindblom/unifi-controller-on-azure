@@ -62,7 +62,10 @@
                                     "port": 8880
                                 }
                             ],
-                            "environmentVariables": [],
+                            "environmentVariables": [
+                                "name": "TZ",
+                                "value": "Europe/Stockholm"
+                            ],
                             "resources": {
                                 "requests": {
                                     "memoryInGB": 1.5,
